@@ -1,0 +1,1 @@
+// para criar metodos comuns a todos os repositories

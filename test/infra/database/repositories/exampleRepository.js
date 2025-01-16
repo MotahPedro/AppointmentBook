@@ -1,0 +1,1 @@
+// para criar os métodos de comunicação com APIs externas, por exemplo.
