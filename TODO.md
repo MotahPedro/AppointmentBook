@@ -1,21 +1,22 @@
 # LETÍCIA
 
-[ ] Modelagem gráfica
-> [ ] Cartões
-> [ ] Quadros
-> [ ] Telas
+- [ ] Modelagem gráfica
+  - [ ] Cartões
+  - [ ] Quadros
+  - [ ] Telas
 
-[ ] Bolar um tema 
+- [ ] Bolar um tema 
 
 
 # MOTA
 
-[ ] Modelagem do sistema
-> [ ] Arquitetura
+- [ ] Modelagem do sistema
+  - [ ] Arquitetura
 
-[ ] Bolar um tema 
+- [ ] Bolar um tema 
 
 
 # SAKAMOTO
 
-[ ] Modelar Banco
+- [ ] Modelar Banco
+- [ ] Atualizar diagrama de classes para contemplar a interface Pendencia
