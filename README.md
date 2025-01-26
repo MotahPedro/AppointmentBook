@@ -133,6 +133,7 @@ Quanto a **prioridade** há 5 tipos:
 - Destacar estado na lista de pendências;
 - Alterar tela de fundo conforme a situação em relação aos prazos (mensurar pela prioridade
 e prazos);
+- Percentual de atividades concluídas do mês;
 
 Na lista de pendências atividades concluídas aparecem como ~~riscadas~~, atividades
 atrasadas são destacadas em vermelho, atividades não finalizadas dentro do prazo são
@@ -140,6 +141,11 @@ exibidas sem destaque.
 
 Para a tela de fundo haverá uma pontuação de acordo com o estado das atividades pendentes,
 assim, há quatro estados possíveis.
+
+- Tá de boa;
+- Fica esperto;
+- Não tá de boa;
+- Vacilando;
 
 
 #### 4.1.4. Relatar dia
@@ -163,20 +169,138 @@ não-funcionais se aproximam de características de sistema.
 - Banco de dados embutido na aplicação;
 - Evitar dependências (fazer o máximo possível na unha);
 
+
 ## 5. Design
+
+O projeto pode ser modelado segundo o que se deseja visualizar. Caso se objetiva visualizar
+como o projeto será estruturado e se comporta será entendido como modelagem de sistema.
+Caso se objetiva visualizar como o será apresentado o sistema pode-se compreender como
+modelagem gráfica.
+
 
 ## 5.1. Sistema
 
+
+
 ### 5.1.1. Arquitetura
+
 
 ### 5.1.2. Comportamento
 
-## 5.2. Gráfico
+
+### 5.1.3. Modelo Entidade-Relacionamento
+
+
+## 5.2. Gráfica
+
+A ideia é que cada integrante do projeto elabore um tema diferente. Para tal, cada qual
+definirá as referências visuais, paleta de cores e fontes. Porém, o método de composição
+das telas será o mesmo, o qual consiste em decompor a tela em elementos modulares, 
+"atomizando" a tela, reduzindo-a aos seus elementos indivisíveis.
+
 
 ### 5.2.1. Referências visuais
 
+As referências visuais não são necessariamente uma imposição sobre como os elementos 
+são compostos, é apenas um direcionamento.
+
+*TEMA 1: Ecobrutalista (SAKA)*
+> Mesmo o ecobrutalismo sendo um paradoxo (tendo em vista que o cimento é responsável 
+> por boa parte da emissão de CO2 na atmosfera, contribuindo significamente para o aumento
+> da temperatura da atmosfera), esteticamente é muito interessante, pois apresenta um 
+> um contraste muito interessante entre natureza com o verde das plantas e o urbano /
+> industrial com o cinza do cimento.
+
+
 ### 5.2.2. Paleta de cores e fontes
+
+*TEMA 1: ecobrutalismo*
+
+![ecobrutalismo](./assets/diagrams/theme_ecobrutalism.png)
+
 
 ### 5.2.3. Decomposição de telas
 
+Genericamente, a tela pode ser decomposta em 3 elementos:
+
+- Cartões: elementos que contém informações / dados;
+- Quadros: elementos que contém cartões;
+- Campos de entrada: elementos usados nos formulários para inserção de dados;
+
+
+#### 5.2.3.1. Cartões
+
+*Projeto*
+
+*Tarefa*
+
+*Obrigação / Afazer*
+
+*Pendência*
+
+*Relato*
+
+*Gráfico de barra*
+
+*Gráfico de linha*
+
+
+#### 5.2.3.2. Quadros
+
+*Lista de pendências*
+
+*Lista de relatos diários*
+
+*Lista de afazeres*
+
+*Lista de projetos*
+
+*Lista de relatos arquivados*
+
+*Painel gráficos e análises*
+
+*Quadro de integrantes*
+
+
+#### 5.2.3.2. Campos de entrada
+
+*texto*
+
+*data*
+
+*botão ---*
+
+*comentário*
+
+*seleção*
+
+
 ### 5.2.4. Composição de telas
+
+A tela é composta através da junção e dos elementos abstraídos na decomposição da tela.
+
+
+#### 5.2.3.1. Atividades
+
+Tela principal na qual o usuário gerencia as suas atividades.
+
+
+#### 5.2.3.2. Projetos
+
+Tela para que o usuário possa visualizar seus projetos.
+
+
+#### 5.2.3.3. Relatos
+
+Tela para que o usuário acesse os relatos diários arquivados. 
+
+
+#### 5.2.3.4. Relatório
+
+Painel no qual é exibido o relatório de atividades, análises e afins. 
+
+
+#### 5.2.3.5. Sobre nós
+
+Tela sobre os integrantes do projeto.
+
