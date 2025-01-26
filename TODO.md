@@ -20,3 +20,4 @@
 
 - [ ] Modelar Banco
 - [ ] Atualizar diagrama de classes para contemplar a interface Pendencia
+- [ ] Pensar em como ponderar atividades para pontuação da situação atual
